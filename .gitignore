@@ -4,11 +4,11 @@
 *.war
 *.ear
 
-# Maven
+# Maven build output
 .target/
 target/
 
-# Gradle
+# Gradle build output
 build/
 .gradle/
 
@@ -19,20 +19,20 @@ build/
 .settings/
 *.iml
 
-# Common Java output
+# Common Java compilation output
 out/
 bin/
 
-# OS and editor files
+# Operating system files
 .DS_Store
 Thumbs.db
 *.swp
 *~
 
-# Logs
+# Log files
 *.log
 
-# Local secrets and environment files
+# Sensitive credentials and environment configurations
 .env
 .env.*
 *.pem
