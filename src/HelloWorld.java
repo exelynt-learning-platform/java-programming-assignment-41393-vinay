@@ -3,6 +3,7 @@ public class HelloWorld {
         System.out.println("=========================================");
         System.out.println("   Git & GitHub Essentials Java Demo    ");
         System.out.println("=========================================");
-        System.out.println("Welcome to Version Control Essentials!");
+        System.out.println("Greeting: " + GreetingService.getPersonalizedGreeting("Developer"));
+        System.out.println("Build Status: Feature branch enhancement active");
     }
 }
