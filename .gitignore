@@ -1,0 +1,40 @@
+# Java build and IDE output
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.target/
+target/
+
+# Gradle
+build/
+.gradle/
+
+# IDE folders and files
+.idea/
+.vscode/
+.eclipse/
+.settings/
+*.iml
+
+# Common Java output
+out/
+bin/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs
+*.log
+
+# Local secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+secrets.properties
